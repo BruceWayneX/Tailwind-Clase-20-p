@@ -1,0 +1,108 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/css/tailwind.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+    <title>Trips!!!</title>
+</head>
+
+<body class="font-Montserrat" >
+    <nav></nav>
+    <div id="tab_bar"></div>
+    <section class="w-full h-screen" >
+        <div id="home">
+            <div class="w-full h-3/4">
+                <div class="w-full h-full flex flex-col absolute space-y-96 py-4 items-center" >
+                    <input class="outline-none p-3 rounded-full shadow-sm transition duration-300 focus-within:shadow-sm focus:ring-2 focus:w-11/12 " placeholder="San Francisco" type="search">
+                    <button class= " w-48 rounded-full text-lg font-semibold p-4 text-primary shadow-sm bg-white transition-all duration-500 ease-in-out hover:bg-primary hover:text-white transform hover:-translate-y-1 hover:scale-110" >
+                        Explora
+                    </button>
+                </div>
+                <div class="w-full h-full" >
+                    <img src="./public/img/sanFrancisco.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="p-6" id="recomendados">
+            <p class="text-3xl font-semibold text-primary " > Recomendados </p>
+            <div class="w-auto h-72 items-center mt-6 overflow-x-auto overscroll-x-contain flex space-x-6 overflow-y-hidden ">
+                <div class=" Card " >
+                    <div class="w-full h-3/5 flex items-center rounded-t-lg bg-norway bg-cover" ></div>
+                    <div class=" w-full h-2/5 flex items-center justify-center flex-col rounded-b-lg bg-secondary shadow-lg ">
+                        <p class="text-white text-bold text-xl" > Norway </p>
+                        <p class="text-white text-md " > Beautiful Landscape </p>
+                    </div>
+                </div>
+                <div class=" Card " >
+                    <div class="w-full h-3/5 flex items-center rounded-t-lg bg-new_york bg-cover" ></div>
+                    <div class=" w-full h-2/5 flex items-center justify-center flex-col rounded-b-lg bg-white shadow-lg ">
+                        <p class="text-tertiary text-bold text-xl" > New York </p>
+                        <p class="text-tertiary text-md " > the big Apple </p>
+                    </div>
+                </div>
+                <div class=" Card " >
+                    <div class="w-full h-3/5 flex items-center rounded-t-lg bg-seattle bg-cover" ></div>
+                    <div class=" w-full h-2/5 flex items-center justify-center flex-col rounded-b-lg bg-white shadow-lg ">
+                        <p class="text-tertiary text-bold text-xl" > Seatle </p>
+                        <p class="text-tertiary text-md " > Big city </p>
+                    </div>
+                </div>
+                <div class=" Card " >
+                    <div class="w-full h-3/5 flex items-center rounded-t-lg bg-switzerland bg-cover" ></div>
+                    <div class=" w-full h-2/5 flex items-center justify-center flex-col rounded-b-lg bg-white shadow-lg ">
+                        <p class="text-tertiary text-bold text-xl" > Switzerland </p>
+                        <p class="text-tertiary text-md " > Peace </p>
+                    </div>
+                </div>
+                <div class=" Card " >
+                    <div class="w-full h-3/5 flex items-center rounded-t-lg bg-yosemite bg-cover" ></div>
+                    <div class=" w-full h-2/5 flex items-center justify-center flex-col rounded-b-lg bg-white shadow-lg ">
+                        <p class="text-tertiary text-bold text-xl" > Yosemite </p>
+                        <p class="text-tertiary text-md " > A break from the world </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="px-2 h-auto w-full" id="rentas_destacadas">
+            <p class="text-3x text-primary font-semibold pb-6 mt-6"> Rentas destacadas </p>
+            <div class="w-full h-auto flex-col space-y-6 items-center justify-center " >
+            <div class="w-full h-96 bg-chicago bg-cover rounded-xl " >
+                <p class="CardTitle" > Chicago </p>
+                <p class="text-sm pl-8 text-white mr-24" >2 habitaciones, baño y cocina</p>
+            </div>
+            <div class="w-full h-96 bg-LA bg-cover rounded-xl " >
+                <p class="CardTitle" > Los Angeles </p>
+                <p class="text-sm pl-8 text-white mr-24" >4 rooms, 3 bathrooms, kitchen and private pool</p>
+            </div>
+            <div class="w-full h-96 bg-miami bg-cover rounded-xl " >
+                <p class="CardTitle" > Miami </p>
+                <p class="text-sm pl-8 text-white mr-24" >3 rooms, 2 bathrooms, kitchen and amazing sea view</p>
+            </div>
+            <div class="w-full h-96 bg-bali bg-cover rounded-xl " >
+                <p class="CardTitle" > Bali </p>
+                <p class="text-sm pl-8 text-white mr-24" >3 rooms, 2 bathrooms, kitchen and private room</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="px-2 h-full w-full" id="faqs">
+        <div class="w-full  h-auto px-6 flex flex-col space-y-4" >
+            <p class="text-3xl text-primary font-semibold mt-6" > FAQS </p>
+        </div>
+        <div>
+            <p class="text-x1 font-medium text-primary" > Politica de cancelacion  </p>
+            <p class="text-md pt-2" >
+                Para estancias menores a una semana es importante avisar con 3 días de
+                anticipación, de caso contario será sancionado.
+            </p>
+        </div>
+    </div>
+    </section>
+    <footer>
+    
+    </footer>
+</body>
+</html>

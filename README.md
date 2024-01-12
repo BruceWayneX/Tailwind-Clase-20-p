@@ -1,5 +1,5 @@
 Preview:
-
+<img width="426" height="240" alt="Screenshot 2023-07-09 at 10 57 29" src="https://github.com/BruceWayneX/Tailwind-Clase-20-p/blob/master/gif%20trip%20web%20with%20tailwind.gif">
 
 
 Learning Tailwind Travel Website
